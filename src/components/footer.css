@@ -1,0 +1,85 @@
+.main-footer {
+    color: white;
+    font-size: 14px;
+    padding: 40px;
+    background-image: url("../assets/img/footer-bg.jpg");
+}
+
+.footer-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    min-width: 150px;
+    flex: 1;
+}
+
+.footer-column h1 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-column li {
+    margin-bottom: 6px;
+}
+
+.footer-column a {
+    color: lightslategray;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.social-section {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.signup-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid lightskyblue;
+    padding: 10px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.slogan-social {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons li img {
+    height: 30px;
+    width: 30px;
+}
+
+.signup-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
