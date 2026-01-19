@@ -1,16 +1,13 @@
 import Header from "./components/Header"
-import Main from "./components/main"
+import AppMain from "./components/AppMain"
 import Footer from "./components/footer"
 
 export default function App() {
   return (
     <>
       <Header />
-      <Main />
+      <AppMain />
       <Footer />
     </>
   )
-}
-
-export default function App() {
 }
