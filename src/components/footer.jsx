@@ -41,17 +41,17 @@ export default function Footer() {
                     <li><a href="">DC Power Visa</a></li>
                 </ul>
             </div>
-            <div>
-                <button>SIGN-UP NOW</button>
+            <div className="social-section">
+                <button>SIGN-UP NOW!</button>
+                <p>FOLLOW US</p>
                 <ul>
-                    <li><a href="">FOLLOW US</a></li>
-                    <li><img src="/img/footer-facebook.png" alt="" /></li>
-                    <li><img src="/img/footer-periscope.png" alt="" /></li>
-                    <li><img src="/img/footer-pinterest.png" alt="" /></li>
-                    <li><img src="/img/footer-twitter.png" alt="" /></li>
-                    <li><img src="/img/footer-youtube.png" alt="" /></li>
+                    <li><img src="/img/footer-facebook.png" alt="Facebook" /></li>
+                    <li><img src="/img/footer-periscope.png" alt="Periscope" /></li>
+                    <li><img src="/img/footer-pinterest.png" alt="Pinterest" /></li>
+                    <li><img src="/img/footer-twitter.png" alt="Twitter" /></li>
+                    <li><img src="/img/footer-youtube.png" alt="YouTube" /></li>
                 </ul>
             </div>
-        </footer>
+        </footer >
     );
 }
